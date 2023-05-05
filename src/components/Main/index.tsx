@@ -5,10 +5,13 @@ const Main = ({
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
-    <S.Logo src="/logo.svg" alt="Boilerplate NextJS" />
+    <S.Logo src="/images/logo.svg" alt="Boilerplate NextJS" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
-    <S.Illustration src="/hero-illustration.svg" alt="Hero Illustration" />
+    <S.Illustration
+      src="/images/hero-illustration.svg"
+      alt="Hero Illustration"
+    />
   </S.Wrapper>
 )
 

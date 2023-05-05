@@ -1,7 +1,7 @@
 module.exports = {
   stories: ['../src/components/**/stories.tsx'],
   addons: ['@storybook/addon-essentials'],
-  staticDirs: ['../public/images'],
+  staticDirs: ['../public'],
   framework: {
     name: '@storybook/nextjs',
     options: {}
